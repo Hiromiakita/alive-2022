@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "0_intro_nodejs",
+  "version": "1.0.0",
+  "description": "peticiones a swapi",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "api",
+    "fetch"
+  ],
+  "author": "H.A.",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "bootstrap": "^5.1.3",
+    "node-fetch": "^3.2.0"
+  }
+}

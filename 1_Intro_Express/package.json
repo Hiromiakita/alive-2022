@@ -1,0 +1,19 @@
+{
+  "name": "1_intro_express",
+  "version": "1.0.0",
+  "description": "introducción a express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "api"
+  ],
+  "author": "Hiromi A",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

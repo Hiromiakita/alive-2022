@@ -18,6 +18,9 @@ let array = ["Afganistán","Albania","Alemania","Andorra","Angola","Antigua y Ba
 
 2. Crer un endpoint que reciba como parámetro una palabra y busque los países que coincidan con ese string y me los entregue en un arreglo.
 
+Ejemplo:
+ Hago una petición get a http://localhost:3005/search/po
+ y debe regresarme un arreglo con todos los países que contengan "po"
 
 FRONTEND
 Vamos a crear un un endpoint que nos regrese un arreglo de paises que coincidan con la búsqueda realizada en el front.

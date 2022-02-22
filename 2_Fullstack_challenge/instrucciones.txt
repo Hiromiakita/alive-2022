@@ -3,11 +3,12 @@ BACKEND
 
 CREAR FOLDER BUSCADOR
 npm init
+llenar package.json
 npm install express
 
 crear un archivo js
 
-Hacer un helloWorls -> https://expressjs.com/es/starter/hello-world.html
+Hacer un helloWorld -> https://expressjs.com/es/starter/hello-world.html
 
 node nombreArchivo.js
 

@@ -1,6 +1,11 @@
+const { urlencoded } = require('express')
 const express = require('express')
 const app = express()
-const port = 3000
+var cors = require('cors')
+const port = 3003
+
+// app.use(express.urlencoded({extended: true}));
+app.use(cors());
 
 app.get('/hola', (req, res) => {
   res.send('Hello World!')
@@ -16,6 +21,15 @@ app.get('/escuelas', (requet, response) => {
   response.send();
 })
 
+app.get('/alumnas', (req, res) => {
+  console.log('test')
+  let nomb = req.params.nombre
+  let apell = req.params.apellido
+  res.json({
+    nomb: 'H'
+  })
+
+})
 // escuela
 
 // .../api/alumna

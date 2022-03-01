@@ -1,0 +1,13 @@
+Utilizando el archivo datos.js
+
+Vamos a hacer las siguientes peticiones desde el FRONTEND
+
+Mostrar nombre y apellido de todos los alumnos 
+http://localhost:3000/alumnos
+
+Mostrar el promedio de un alumno, por ejemplo, para mostrar el promedio de Bell
+http://localhost:3000/promedio/alumno/Bell
+
+Obtener el promedio de todos los alumnos que cursan alguna materia, ejemplo alumnos que cursan materia de programación
+http://localhost:3000/promedio/materia/programacion
+

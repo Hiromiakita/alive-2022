@@ -1,0 +1,14 @@
+FRONTEND
+1. Crear en un archivo HTML
+2. Añadir elementos HTML para solicitar al usuario un Usuario y una Contraseña
+3. El usuario no debe tener diferencia entre mayúsulas y minúsculas ** (case sensitive)
+4. Al hacer click al botón submit se debe validar el usuario y la contraseña definidos en el backend, haciendo una petición.
+5. Dependiendo de la respuesta que me dé el backend, mostraremos un mensaje al usuario:
+    En caso de ser correcta la información -> "BIENVENIDA"
+    En caso de ser incorrecta la información -> "INTENTA DE NUEVO"
+
+BACKEND
+1. Instalar las dependencias que sean necesarias para el backend
+2. Crear un endpoint para  que pueda recibir el usuario y la contraseña que se ingresó en el FRONTEND
+3. Dentro de la petición creada en el backend se debe validar que la contraña y el usuario son correctos
+4. La petición nos debe entregar como respuesta algo que nos diga si fue correcta o no la información ingresada.
